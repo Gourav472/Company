@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.menulist.show {
+    right: 0;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+.bg-header {
+    background-image: url(../dist/images/png/header.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-sec2{
+background-image: url(../dist/images/png/bg-sec2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.bg-sec3{
+    background-image: url(../dist/images/png/bg-sec3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-gradient{
+    background: linear-gradient(249.78deg, #35D3FF -0.64%, #A963FB 103.6%);
+
+}
+.menulist.show{
+    right: 0;
+}
